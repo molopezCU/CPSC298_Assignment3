@@ -5,19 +5,21 @@
 using namespace std;
 int main(int argc, char **argv){
 
-  Pet *p2 = new Pet("Jiji", 8, "Cat", 16.8);
+  Pet *pet1 = new Pet("Samsung", 6, "Dog", 22.5); //insatnce 1
+  Pet *pet2 = new Pet("Jiji", 8, "Cat", 16.8);    //insatnce 2
 
-  cout << "My pet's name is: " << p2->getName() << endl;
-  cout << "My pet is " << p2->getAge() << " years old." << endl;
-  cout << "My pet is a " << p2->getType() << endl;
-  cout << "My pet weighs " << p2->getWeight() << " lbs." << endl;
+  cout << "My pet's name is: " << pet2->getName() << endl;
+  cout << "My pet is " << pet2->getAge() << " years old." << endl;
+  cout << "My pet is a " << pet2->getType() << endl;
+  cout << "My pet weighs " << pet2->getWeight() << " lbs." << endl;
 
+  cout << "==================" << endl;
 
-  // cout << "my name is: " << p2->getName() << endl;
-  //
-  // cout << "address of P: " << p << endl;
-  // cout << "address of P2: " << p2 << endl;
+  cout << "My pet's name is: " << pet1->getName() << endl;
+  cout << "My pet is " << pet1->getAge() << " years old." << endl;
+  cout << "My pet is a " << pet1->getType() << endl;
+  cout << "My pet weighs " << pet1->getWeight() << " lbs." << endl;
 
-  // delete p;
-  delete p2;
+  delete pet1;
+  delete pet2;
 }
