@@ -1,3 +1,13 @@
+/*
+Moises Lopez
+229564
+molopez@chapman.edu
+CPSC 298-01
+Assignment 3
+
+Header file for Pet Class.
+
+*/
 #ifndef PET_H
 #define PET_H
 

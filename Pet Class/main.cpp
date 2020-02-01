@@ -1,3 +1,13 @@
+/*
+Moises Lopez
+229564
+molopez@chapman.edu
+CPSC 298-01
+Assignment 3
+
+Main for Pet Class.
+
+*/
 #include "Pet.h"
 #include <iostream>
 #include <string>
