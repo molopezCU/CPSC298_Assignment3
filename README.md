@@ -1,9 +1,8 @@
 Moises Lopez
-229564
+2297564
 molopez@chapman.edu
 CPSC 298-01
-Assignment 2
-
+Assignment 3
 
 README.md
 Pet.h
